@@ -1,0 +1,12 @@
+
+
+the_ROM_image:
+{
+
+  [bootloader] zynq_fsbl.elf
+               ../project_1/project_1.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit
+	       u-boot.elf
+	       ../project_1/project_1.sdk/app_cpu1/Debug/app_cpu1.elf
+
+}
+
