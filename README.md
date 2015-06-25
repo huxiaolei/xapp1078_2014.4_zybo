@@ -1,7 +1,5 @@
 # Readme
 
-This project is to create a GUI and Simulink model by using MPC (Model Predictive Control) for a hybrid energy storage system consisting Battery and Ultra-capacitor. THe work is published with the title of "Optimization of battery energy storage system with super-capacitor for renewable energy applications" on 2011 IEEE 8th International Conference on Power Electronics and ECCE Asia (ICPE & ECCE). The paper is accessible through IEEE Xplore Digital Library, please click [here](http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=5944515&queryText%3DOptimization+of+battery+energy+storage+system+with+super-capacitor+for+renewable+energy+applications).
-
 This project is to describe how to run [xapp1078_2014.4](http://www.wiki.xilinx.com/XAPP1078+Latest+Information) on a zybo board. The major difference between zybo and zc702 is:
 
 * DDR memory on zybo is 512MB while zc702 has 1GB
