@@ -1,0 +1,7 @@
+the_ROM_image:
+{
+	[bootloader]C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\zynq_fsbl.elf
+	C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\project_2\project_2.sdk\system_wrapper_hw_platform_0\system_wrapper.bit
+	C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\u-boot.elf
+	C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\project_2\project_2.sdk\app_cpu1\Debug\app_cpu1.elf
+}

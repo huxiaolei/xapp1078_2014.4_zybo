@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# 
+# Start of session at: Tue Jun 23 20:48:52 2015
+# Process ID: 11276
+# Log file: C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

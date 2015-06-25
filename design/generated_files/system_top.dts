@@ -1,0 +1,27 @@
+/dts-v1/;
+/include/ "system-conf.dtsi"
+/ {
+};
+&dmac_s {
+		status="disabled";
+};
+
+&gem0 {
+    local-mac-address = [00 0a 35 00 00 00];
+    phy-mode = "rgmii-id";
+    status = "okay";
+    phy-handle = <&phy0>;
+    xlnx,eth-mode = <0x1>;
+    xlnx,has-mdio = <0x1>;
+    xlnx,ptp-enet-clock = <0x6750918>;
+    ps7_ethernet_0_mdio: mdio {
+        #address-cells = <1>;
+        #size-cells = <0>;
+        
+        phy0: phy@1 {
+            compatible = "realtek,RTL8211E";
+            device_type = "ethernet-phy";
+            reg = <1>;
+        } ;
+    };
+};

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.4 (64-bit)
+# SW Build 1067303 on Wed Nov 12 18:52:34 MST 2014
+# IP Build 1068446 on Thu Nov 13 19:40:58 MST 2014
+# Start of session at: Tue Jun 23 14:21:12 2015
+# Process ID: 8860
+# Log file: C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.runs/impl_1/system_wrapper.vdi
+# Journal file: C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

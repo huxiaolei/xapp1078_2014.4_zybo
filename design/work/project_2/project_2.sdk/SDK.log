@@ -1,0 +1,36 @@
+14:27:56 INFO  : Processing command line option -hwspec C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.sdk/system_wrapper.hdf.
+14:28:02 INFO  : Launching XSDB server: xsdb.bat -s C:/Xilinx/SDK/2014.4/scripts/xsdb/xsdb/xsdb-server.tcl 2450
+14:28:03 INFO  : Restoring global repository preferences: 
+		 C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\src\sdk_repo
+		 C:\Users\XHU1_000\work\ZYNQ\PWM_IP\ip_repo
+14:28:44 INFO  : BSP Project P/app_cpu1_bsp has been successfully migrated.
+14:53:02 INFO  : Invoking Bootgen: bootgen -image bootimageV2.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin
+14:53:02 INFO  : Creating new bif file C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\bootimageV2.bif
+14:53:03 INFO  : Bootgen command execution is done.
+14:57:51 INFO  : Invoking Bootgen: bootgen -image bootimageV2.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin -w on
+14:57:51 INFO  : Overwriting existing bif file C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\bootimageV2.bif
+14:57:52 INFO  : Bootgen command execution is done.
+15:14:45 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+15:15:25 INFO  : ps7_init is completed.
+15:15:25 INFO  : ps7_post_config is completed.
+15:15:26 INFO  : Processor reset is completed for ps7_cortexa9_1
+15:15:27 INFO  : Memory regions updated for context APU
+15:15:27 INFO  : Application is downloaded for ps7_cortexa9_1. (C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\project_2\project_2.sdk\app_cpu1\Debug\app_cpu1.elf)
+15:16:56 INFO  : Processor reset is completed for ps7_cortexa9_1
+15:16:57 INFO  : Memory regions updated for context APU
+15:16:57 INFO  : Application is downloaded for ps7_cortexa9_1. (C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\project_2\project_2.sdk\app_cpu1\Debug\app_cpu1.elf)
+15:18:16 INFO  : Processor reset is completed for ps7_cortexa9_1
+15:18:16 INFO  : Memory regions updated for context APU
+15:18:16 INFO  : Application is downloaded for ps7_cortexa9_1. (C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\project_2\project_2.sdk\app_cpu1\Debug\app_cpu1.elf)
+15:18:31 INFO  : FPGA configured successfully with bitstream "C:/Users/XHU1_000/work/ZYNQ/linux/xapp1078_2014.4_zybo/design/work/project_2/project_2.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+16:20:44 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin
+16:20:44 INFO  : Creating new bif file C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\output.bif
+16:20:45 INFO  : Bootgen command execution is done.
+16:33:33 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin
+16:33:33 INFO  : Creating new bif file C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\output.bif
+16:33:34 INFO  : Bootgen command execution is done.
+16:47:01 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin -w on
+16:47:02 INFO  : Bootgen command execution is done.
+17:09:01 INFO  : Invoking Bootgen: bootgen -image output.bif -o C:\Users\XHU1_000\work\ZYNQ\linux\xapp1078_2014.4_zybo\design\work\bootgen\BOOT.bin -w on
+17:09:01 INFO  : Bootgen command execution is done.
+20:48:49 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

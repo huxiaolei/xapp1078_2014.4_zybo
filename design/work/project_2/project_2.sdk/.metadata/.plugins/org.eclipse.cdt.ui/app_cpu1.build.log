@@ -1,0 +1,31 @@
+17:07:05 **** Auto Build of configuration Debug for project app_cpu1 ****
+make all 
+'Building file: ../src/app_cpu1.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/app_cpu1.o" -I../../app_cpu1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/app_cpu1.d" -MT"src/app_cpu1.d" -o "src/app_cpu1.o" "../src/app_cpu1.c"
+'Finished building: ../src/app_cpu1.c'
+' '
+'Building file: ../src/my_utils.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/my_utils.o" -I../../app_cpu1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/my_utils.d" -MT"src/my_utils.d" -o "src/my_utils.o" "../src/my_utils.c"
+'Finished building: ../src/my_utils.c'
+' '
+'Building file: ../src/scu_sleep.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/scu_sleep.o" -I../../app_cpu1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/scu_sleep.d" -MT"src/scu_sleep.d" -o "src/scu_sleep.o" "../src/scu_sleep.c"
+'Finished building: ../src/scu_sleep.c'
+' '
+'Building target: app_cpu1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../app_cpu1_bsp/ps7_cortexa9_1/lib -o "app_cpu1.elf"  ./src/app_cpu1.o ./src/my_utils.o ./src/scu_sleep.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: app_cpu1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size app_cpu1.elf  |tee "app_cpu1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  29076	   1936	  22612	  53624	   d178	app_cpu1.elf
+'Finished building: app_cpu1.elf.size'
+' '
+
+17:07:06 Build Finished (took 1s.766ms)
+
