@@ -1,0 +1,9 @@
+#This is a gitignore file to indicate which file which be ignored by git
+#@2015 Jun. 25th
+#Power by Hu Xiaolei
+
+#all the files under ./Debug ./Release should be ignored.
+[Dd]esign/work/.[Xx]il/
+#ignore tcl script first, I cann't get things working at this moment.
+design/src/scripts/*zybo*.tcl
+#doc should be excluded from compilation but not from git

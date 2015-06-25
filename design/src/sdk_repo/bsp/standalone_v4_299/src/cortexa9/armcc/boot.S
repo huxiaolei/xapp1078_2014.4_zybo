@@ -265,10 +265,10 @@ shareable_loop:
 ;	bge	mmu_loop			; loop till 512MB is covered
 ;#endif
 
-	; In case of AMP, mark address 0x00000000 - 0x2fffffff DDR as unassigned/reserved
-	; and address 0x30000000 - 0x3fffffff DDR as non-shared inner cached only 
+	; In case of AMP, mark address 0x00000000 - 0x17ffffff DDR as unassigned/reserved
+	; and address 0x18000000 - 0x1fffffff DDR as non-shared inner cached only 
 #if USE_AMP==1
-	ldr	r3, =0x2ff			  ; 768 entries to cover 768MB DDR 
+	ldr	r3, =0x17f			  ; 384 entries to cover 384MB DDR updated by Hu Xiaolei 
 	ldr	r0, =TblBase			; MMU Table address in memory 
 	ldr	r2, =0x0000			  ; S=b0 TEX=b000 AP=b00, Domain=b0, C=b0, B=b0 
 mmu_loop:
@@ -278,8 +278,9 @@ mmu_loop:
 	subs	r3, r3, #1
 	bge	mmu_loop			    ; loop till 768MB is covered 
 
+	ldr	r3, =0x07f			  /* 128 entries to cover 128MB DDR updated by Hu Xiaolei*/	
 	movw r2, #0x4de6			; S=b0 TEX=b100 AP=b11, Domain=b1111, C=b0, B=b1
-	movt r2, #0x3000      ; S=b0, Section start for address 0x30000000
+	movt r2, #0x1800      ; S=b0, Section start for address 0x18000000 updated by Hu Xiaolei
 mmu_loop1:              
 	str	r2, [r0]			    ; write the entry to MMU table 
 	add	r0, r0, #0x4			; next entry in the table 
